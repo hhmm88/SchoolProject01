@@ -15,4 +15,4 @@ jhgjhgjgjhgjg<br>
 
 [yahoo](http://tw.yahoo.com)
 
-[練習].(練習.txt)
+[練習](練習.txt)
