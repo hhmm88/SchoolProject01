@@ -1,0 +1,22 @@
+程式碼如下，請問最後結果為何? E(07行少super)
+	01.  class Person{
+	02.     String name="anonymity";
+	03.     public Person(String n){name=n;}
+	04.   }
+	05.  class Employee extends Person{
+	06.     String empID="E00";
+	07.     public Employee(String id){empID=id;}
+	08.   }
+	09.  class Execute{
+	10.     public static void main(String args[]){
+	11.       Employee em=new Employee("E01");
+	12.       System.out.print(em.empID);
+	13.   }
+	14. }
+
+	
+	A. E00
+	B. E01
+	C. anonymity
+	D. E00 E01
+	E. 編譯失敗
